@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Project Title</title>
+<meta charset="utf-8">
+<meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
+<style> @-ms-viewport { width: device-width; } </style>
+<link rel="stylesheet" href="vendor/reset.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="multiple-scenes ">
+
+<div id="pano"></div>
+
+<div id="sceneList">
+  <ul class="scenes">
+    
+      <a href="javascript:void(0)" class="scene" data-id="0-area_hijau2">
+        <li class="text">area_hijau2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="1-area_hijau">
+        <li class="text">area_hijau</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="2-area_hijau3">
+        <li class="text">area_hijau3</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="3-lapang_terbuka">
+        <li class="text">lapang_terbuka</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="4-masjid">
+        <li class="text">masjid</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="5-pusat_taman">
+        <li class="text">pusat_taman</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="6-pusat_taman2">
+        <li class="text">pusat_taman2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="7-taman_bermain">
+        <li class="text">taman_bermain</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="8-taman_bermain2">
+        <li class="text">taman_bermain2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="9-gerbang">
+        <li class="text">gerbang</li>
+      </a>
+    
+  </ul>
+</div>
+
+<div id="titleBar">
+  <h1 class="sceneName"></h1>
+</div>
+
+<a href="javascript:void(0)" id="autorotateToggle">
+  <img class="icon off" src="img/play.png">
+  <img class="icon on" src="img/pause.png">
+</a>
+
+<a href="javascript:void(0)" id="fullscreenToggle">
+  <img class="icon off" src="img/fullscreen.png">
+  <img class="icon on" src="img/windowed.png">
+</a>
+
+<a href="javascript:void(0)" id="sceneListToggle">
+  <img class="icon off" src="img/expand.png">
+  <img class="icon on" src="img/collapse.png">
+</a>
+
+<a href="javascript:void(0)" id="viewUp" class="viewControlButton viewControlButton-1">
+  <img class="icon" src="img/up.png">
+</a>
+<a href="javascript:void(0)" id="viewDown" class="viewControlButton viewControlButton-2">
+  <img class="icon" src="img/down.png">
+</a>
+<a href="javascript:void(0)" id="viewLeft" class="viewControlButton viewControlButton-3">
+  <img class="icon" src="img/left.png">
+</a>
+<a href="javascript:void(0)" id="viewRight" class="viewControlButton viewControlButton-4">
+  <img class="icon" src="img/right.png">
+</a>
+<a href="javascript:void(0)" id="viewIn" class="viewControlButton viewControlButton-5">
+  <img class="icon" src="img/plus.png">
+</a>
+<a href="javascript:void(0)" id="viewOut" class="viewControlButton viewControlButton-6">
+  <img class="icon" src="img/minus.png">
+</a>
+
+<script src="vendor/screenfull.min.js" ></script>
+<script src="vendor/bowser.min.js" ></script>
+<script src="vendor/marzipano.js" ></script>
+
+<script src="data.js"></script>
+<script src="index.js"></script>
+
+<!-- Tombol Kembali di kiri bawah -->
+<a href="khas_kandangan.html" 
+   style="position: fixed; bottom: 20px; left: 20px; z-index: 1000; background-color: #2d3748; color: white; padding: 10px 16px; border-radius: 8px; font-family: sans-serif; text-decoration: none; box-shadow: 0 4px 6px rgba(0,0,0,0.2);">
+   ← Kembali
+</a>
+
+
+</body>
+</html>

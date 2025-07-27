@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JELAJAH HSS</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-900">
+
+  <!-- Navbar (fixed) -->
+  <header class="bg-green-700 text-white shadow-md fixed top-0 left-0 right-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
+      <h1 class="text-xl font-bold">JELAJAH HSS</h1>
+      <button id="menuToggle" class="md:hidden text-white focus:outline-none">
+        ☰
+      </button>
+    </div>
+
+    <!-- Desktop Navigation -->
+    <nav class="hidden md:flex justify-center space-x-4 px-4 pb-3">
+      <a href="index.html" style="color:green; background:white" class="px-3 py-2 rounded-md transition duration-200 hover:bg-white hover:text-green-700 text-white">Home</a>
+      <a href="khas_kandangan.html" class="px-3 py-2 rounded-md transition duration-200 hover:bg-white hover:text-green-700 text-white">Khas Kandangan</a>
+      <a href="wisata.html" class="px-3 py-2 rounded-md transition duration-200 hover:bg-white hover:text-green-700 text-white">Wisata</a>
+      <a href="lokal_kuliner.html" class="px-3 py-2 rounded-md transition duration-200 hover:bg-white hover:text-green-700 text-white">Lokal Kuliner</a>
+      <a href="layanan_pemerintahan.html" class="px-3 py-2 rounded-md transition duration-200 hover:bg-white hover:text-green-700 text-white">Layanan Pemerintahan</a>
+      <a href="pendidikan.html" class="px-3 py-2 rounded-md transition duration-200 hover:bg-white hover:text-green-700 text-white">Pendidikan</a>
+      <a href="#" class="px-3 py-2 rounded-md transition duration-200 hover:bg-white hover:text-green-700 text-white">Kerjasama</a>
+      <a href="#" class="px-3 py-2 rounded-md transition duration-200 hover:bg-white hover:text-green-700 text-white">Tentang Kami</a>
+    </nav>
+
+    <!-- Mobile Sidebar -->
+    <div id="mobileMenu" class="md:hidden hidden bg-green-800 px-4 pb-4">
+      <a href="index.html" style="color:green; background:white" class="block py-2 px-3 rounded-md bg-white hover:bg-white hover:text-green-700 transition duration-200">Home</a>
+      <a href="khas_kandangan.html" class="block py-2 px-3 rounded-md text-white hover:bg-white hover:text-green-700 transition duration-200">Khas Kandangan</a>
+      <a href="wisata.html" class="block py-2 px-3 rounded-md text-white hover:bg-white hover:text-green-700 transition duration-200">Wisata</a>
+      <a href="lokal_kuliner.html" class="block py-2 px-3 rounded-md text-white hover:bg-white hover:text-green-700 transition duration-200">Lokal Kuliner</a>
+      <a href="layanan_pemerintahan" class="block py-2 px-3 rounded-md text-white hover:bg-white hover:text-green-700 transition duration-200">Layanan Pemerintahan</a>
+      <a href="pendidikan.html" class="block py-2 px-3 rounded-md text-white hover:bg-white hover:text-green-700 transition duration-200">Pendidikan</a>
+      <a href="#" class="block py-2 px-3 rounded-md text-white hover:bg-white hover:text-green-700 transition duration-200">Kerjasama</a>
+      <a href="#" class="block py-2 px-3 rounded-md text-white hover:bg-white hover:text-green-700 transition duration-200">Tentang Kami</a>
+    </div>
+  </header>
+
+  <!-- Hero / Intro -->
+  <section class="bg-cover bg-center h-64 pt-12" style="background-image: url('hss.jpg'); background-size:100% 100%;">
+    <div class="bg-black bg-opacity-50 h-full flex items-center justify-center">
+      <h2 class="text-3xl md:text-5xl text-white font-bold text-center">Selamat datang di Hulu Sungai Selatan</h2>
+    </div>
+  </section>
+
+  <!-- Sejarah Section -->
+  <section id="sejarah" class="max-w-4xl mx-auto px-4 py-12">
+    <h3 class="text-2xl md:text-3xl font-semibold text-center mb-4">Sejarah Kandangan</h3>
+    <center>
+      <img src="image.png" width="60%" style="border-radius:10px;"/>
+    </center>
+    <p class="text-justify text-gray-700 leading-relaxed mt-3">
+      Kandangan adalah ibu kota Kabupaten Hulu Sungai Selatan, Kalimantan Selatan, yang dikenal sebagai kota kecil nan asri yang sarat akan nilai sejarah dan budaya Banjar. Terletak di tepi Sungai Amandit, Kandangan berkembang sebagai pusat perdagangan dan pemerintahan sejak masa kolonial Hindia Belanda. Kota ini menjadi jalur penting dalam distribusi hasil bumi dan pertanian dari pedalaman Kalimantan ke kota-kota besar di sekitarnya. Masyarakatnya dikenal ramah, religius, dan sangat menjaga nilai-nilai kearifan lokal, menjadikan Kandangan sebagai kota yang damai dan nyaman untuk dikunjungi.
+    </p>
+    <p class="text-justify text-gray-700 leading-relaxed mt-2">
+      Secara historis, Kandangan juga menjadi saksi perjuangan rakyat Banjar dalam melawan penjajahan. Di kota ini pula tumbuh berbagai institusi pendidikan dan keagamaan yang membentuk karakter masyarakatnya yang religius dan berbudaya. Kandangan terkenal dengan kulinernya yang khas seperti ketupat Kandangan dan ikan haruan (gabus) masak habang, yang sudah melegenda di Kalimantan Selatan. Selain itu, keindahan alam sekitarnya seperti Pegunungan Meratus dan aliran Sungai Amandit menjadikan Kandangan tak hanya menarik dari sisi budaya, tetapi juga memiliki potensi wisata alam yang luar biasa.
+    </p>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-green-800 text-white py-6 mt-12">
+    <div class="max-w-7xl mx-auto px-4 text-center">
+      <p class="text-sm">&copy; 2025 JELAJAH HSS. All rights reserved.</p>
+      <p class="text-xs mt-1">Dibuat dengan ❤️ untuk mempromosikan keindahan Kandangan.</p>
+    </div>
+  </footer>
+
+  <!-- Script for toggle -->
+  <script>
+    const menuToggle = document.getElementById('menuToggle');
+    const mobileMenu = document.getElementById('mobileMenu');
+    menuToggle.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+  </script>
+
+</body>
+</html>
